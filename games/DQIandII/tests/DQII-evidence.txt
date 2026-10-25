@@ -1,0 +1,17 @@
+[2026-10-25 00:35:17.3951175] UObject::ProcessEvent = 0x228
+[2026-10-25 00:35:20.8685556] [Lua] [DQIandIIReleaseQA] LUA_OK
+[2026-10-25 00:35:20.8693471] [RegisterHook] Registered native hook (1, 2) for Function /Script/Engine.PlayerController:ClientRestart
+[2026-10-25 00:35:20.8693878] [Lua] [DQIandIIReleaseQA] HOOK_READY
+[2026-10-25 00:36:08.8878258] [Lua] [DQIandIIReleaseQA] OBJECT_NAME_OK: KismetSystemLibrary /Script/Engine.Default__KismetSystemLibrary
+[2026-10-25 00:36:08.8879840] [Lua] [DQIandIIReleaseQA] PROPERTY_READ_OK: bShowMouseCursor=false
+[2026-10-25 00:36:08.8883768] [Lua] [DQIandIIReleaseQA] PROCESSEVENT_SCALAR_OK: Add_IntInt=12
+[2026-10-25 00:36:08.8886092] [Lua] [DQIandIIReleaseQA] PROCESSEVENT_STRING_OK: GetEngineVersion=4.27.2-0+++UE4+Release-4.27
+[2026-10-25 00:36:08.8886387] [Lua] [DQIandIIReleaseQA] API_CHECKS_PASSED
+[2026-10-25 00:37:24.6512785] [Lua] [DQIandIIReleaseQA] HOOK_FIRED: count=1
+[2026-10-25 00:37:25.5902200] [Lua] [DQIandIIReleaseQA] HOOK_FIRED: count=2
+[2026-10-25 00:38:03.3418523] [Lua] [DQIandIIReleaseQA] OBJECT_NAME_OK: KismetSystemLibrary /Script/Engine.Default__KismetSystemLibrary
+[2026-10-25 00:38:03.3419632] [Lua] [DQIandIIReleaseQA] PROPERTY_READ_OK: bShowMouseCursor=false
+[2026-10-25 00:38:03.3420351] [Lua] [DQIandIIReleaseQA] PROCESSEVENT_SCALAR_OK: Add_IntInt=12
+[2026-10-25 00:38:03.3420737] [Lua] [DQIandIIReleaseQA] PROCESSEVENT_STRING_OK: GetEngineVersion=4.27.2-0+++UE4+Release-4.27
+[2026-10-25 00:38:03.3420900] [Lua] [DQIandIIReleaseQA] API_CHECKS_PASSED
+[2026-10-25 00:38:12.7160695] [Lua] [DQIandIIReleaseQA] STATUS: count=2

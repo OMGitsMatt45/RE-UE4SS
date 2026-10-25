@@ -1,0 +1,8 @@
+[2026-10-25 00:46:45.2996329] UObject::ProcessEvent = 0x228
+[2026-10-25 00:46:49.4320060] [Lua] [DQIandIIProbe] LUA_OK: DQIandII compatibility core 0.1.0
+[2026-10-25 00:46:49.4330591] [Lua] [DQIandIIProbe] LOOKUP_OK: ClientRestart
+[2026-10-25 00:46:49.4331600] [RegisterHook] Registered native hook (1, 2) for Function /Script/Engine.PlayerController:ClientRestart
+[2026-10-25 00:46:49.4332541] [Lua] [DQIandIIProbe] HOOK_READY: pre=1; post=2
+[2026-10-25 00:49:42.3013995] [Lua] [DQIandIIProbe] HOOK_FIRED: ClientRestart PRE; count=1
+[2026-10-25 00:49:43.0185404] [Lua] [DQIandIIProbe] HOOK_FIRED: ClientRestart PRE; count=2
+[2026-10-25 00:49:55.5064909] [Lua] [DQIandIIProbe] STATUS: HOOK_READY; count=2
