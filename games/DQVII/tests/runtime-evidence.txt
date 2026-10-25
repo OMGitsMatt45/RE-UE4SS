@@ -1,0 +1,22 @@
+MemberVariableLayout.ini loaded
+FUObjectArray::UObjectCreateListeners = 0x70
+FUObjectArray::UObjectDeleteListeners = 0x80
+FUObjectArray::UObjectCreateListeners = 0x70
+FUObjectArray::UObjectDeleteListeners = 0x80
+[Lua] [DQVIIReleaseQA] LUA_OK
+[RegisterHook] Registered native hook (1, 2) for Function /Script/Engine.PlayerController:ClientRestart
+[Lua] [DQVIIReleaseQA] HOOK_READY
+[Lua] [DQVIIReleaseQA] HOOK_FIRED: count=1
+[HashTables] Self test passed (4388 classes with instances)
+[Lua] [DQVIIReleaseQA] OBJECT_NAME_OK: KismetSystemLibrary /Script/Engine.Default__KismetSystemLibrary
+[Lua] [DQVIIReleaseQA] PROPERTY_READ_OK: bShowMouseCursor=false
+[Lua] [DQVIIReleaseQA] PROCESSEVENT_SCALAR_OK: Add_IntInt=12
+[Lua] [DQVIIReleaseQA] PROCESSEVENT_STRING_OK: GetEngineVersion=4.27.2-0+++UE4+Release-4.27
+[Lua] [DQVIIReleaseQA] API_CHECKS_PASSED
+[Lua] [DQVIIReleaseQA] HOOK_FIRED: count=2
+[Lua] [DQVIIReleaseQA] OBJECT_NAME_OK: KismetSystemLibrary /Script/Engine.Default__KismetSystemLibrary
+[Lua] [DQVIIReleaseQA] PROPERTY_READ_OK: bShowMouseCursor=false
+[Lua] [DQVIIReleaseQA] PROCESSEVENT_SCALAR_OK: Add_IntInt=12
+[Lua] [DQVIIReleaseQA] PROCESSEVENT_STRING_OK: GetEngineVersion=4.27.2-0+++UE4+Release-4.27
+[Lua] [DQVIIReleaseQA] API_CHECKS_PASSED
+[Lua] [DQVIIReleaseQA] STATUS: count=2

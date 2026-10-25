@@ -1,0 +1,40 @@
+DQVII Steam 22412021 / executable 1.1.1.0; local diagnosis 2026-10-25.
+No game bytes, private paths, memory dumps, or user save identifiers included.
+
+Trial 01: upstream hooks/layouts, object cache true.
+  Last initialization step: Adding GUObjectArray listeners
+  Exception: 0xc0000005, read address 0
+  Fault RVA: UE4SS.dll+0x43c4a0
+  Matching official PDB public symbol:
+    RC::Unreal::FUObjectArray::AddUObjectDeleteListener + 0x40
+
+Trial 02: only object cache changed to false.
+  Last initialization step: Adding shutdown listener
+  Same fault RVA, exception code and null read.
+
+Runtime disassembly at RVA 0x43c460:
+  Obtains the delete listener array, reads data and count, iterates pointer entries.
+  RVA 0x43c4a0: cmp qword ptr [rdx], rbx
+  rdx was null in both exception contexts.
+  In both cases the selected array was game GUObjectArray + 0x78.
+
+VII static references:
+  GUObjectArray RVA 0x5ea7660
+  Shutdown function RVA 0x1e08d40
+  Delete listener count at +0x88; array data at +0x80.
+  Native shutdown assertion identifies UObject delete listeners.
+  Corresponding creation listener count at +0x78; array data at +0x70.
+  Static destructor RVA 0x449a130 frees arrays at +0x80 and +0x70.
+
+Trial 03: object cache true; MemberVariableLayout.ini changes only:
+  FUObjectArray.UObjectCreateListeners = 0x70
+  FUObjectArray.UObjectDeleteListeners = 0x80
+  Lua initialized; native callback and reflected API checks passed.
+  Existing adventure loaded; second native callback and API checks passed.
+  Stock upstream hooks and vtable defaults remained enabled.
+  Steam game processes exited with code 0.
+
+ProcessEvent:
+  Independent static candidate at game RVA 0x1dfe760, dominant slot 68.
+  Runtime stock layout found that same function.
+  Reflected integer result 12 and FString engine version return passed.

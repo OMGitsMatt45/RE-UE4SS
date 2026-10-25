@@ -1,0 +1,13 @@
+MemberVariableLayout.ini loaded
+FUObjectArray::UObjectCreateListeners = 0x70
+FUObjectArray::UObjectDeleteListeners = 0x80
+FUObjectArray::UObjectCreateListeners = 0x70
+FUObjectArray::UObjectDeleteListeners = 0x80
+[Lua] [DQVIIProbe] LUA_OK: DQVII compatibility core 0.1.0
+[Lua] [DQVIIProbe] LOOKUP_OK: ClientRestart
+[RegisterHook] Registered native hook (1, 2) for Function /Script/Engine.PlayerController:ClientRestart
+[Lua] [DQVIIProbe] HOOK_READY: pre=1; post=2
+[Lua] [DQVIIProbe] HOOK_FIRED: ClientRestart PRE; count=1
+[HashTables] Self test passed (4388 classes with instances)
+[Lua] [DQVIIProbe] HOOK_FIRED: ClientRestart PRE; count=2
+[Lua] [DQVIIProbe] STATUS: HOOK_READY; count=2
